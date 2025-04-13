@@ -16,13 +16,13 @@ parts:
       - file: kernel/gpu.md
       - file: kernel/cuda.md
       - file: kernel/triton.md
-      - file: kernel/cuda_kernel_optimization.md
       - file: kernel/gemm.md
       - file: kernel/flash_attention.md
-      - file: kernel/cutlass.md
+      - file: kernel/misc_optimizations.md
     - file: training/overview.md
       title: Training
       sections:
+      - file: training/pretraining_posttraining.md
       - file: training/computation_memory_cost_analysis.md
       - file: training/parallelism.md
       - file: training/zero.md
