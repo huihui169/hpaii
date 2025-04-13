@@ -21,6 +21,7 @@ parts:
       - file: kernel/flash_attention.md
       - file: kernel/cutlass.md
     - file: training/overview.md
+      title: Training
       sections:
       - file: training/computation_memory_cost_analysis.md
       - file: training/parallelism.md
@@ -28,6 +29,7 @@ parts:
       - file: training/zero_bubble_pipeline_parallelism.md
       - file: training/megatron.md
     - file: inference/overview.md
+      title: Inference
       sections:
       - file: inference/kv_cache.md
       - file: inference/continuous_batching.md
