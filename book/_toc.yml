@@ -10,22 +10,29 @@ parts:
       - file: introduction/moe.md
       - file: introdcution/training.md
       - file: introduction/inference.md
-    - file: exercises.md
+    - file: kernel/overview.md
       sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
-      - file: exercises/summary
-    - file: syntax_exercises.md
+      - file: kernel/gpu.md
+      - file: kernel/cuda.md
+      - file: kernel/triton.md
+      - file: kernel/cuda_kernel_optimization.md
+      - file: kernel/gemm.md
+      - file: kernel/flash_attention.md
+      - file: kernel/cutlass.md
+    - file: training/overview.md
       sections:
-      - file: syntax_exercises/007.md
-      - file: syntax_exercises/008.md
-      - file: syntax_exercises/009.md
-      - file: syntax_exercises/010.md
-      - file: syntax_exercises/011.md
+      - file: training/computation_memory_cost_analysis.md
+      - file: training/parallelism.md
+      - file: training/zero.md
+      - file: training/zero_bubble_pipeline_parallelism.md
+      - file: training/megatron.md
+    - file: inference/overview.md
+      sections:
+      - file: inference/kv_cache.md
+      - file: inference/continuous_batching.md
+      - file: inference/disaggregated_inference.md
+      - file: inference/vLLM.md
+      - file: inference/sgLang.md
     - file: references.md
     - file: changelog.md
     - file: credits.md
