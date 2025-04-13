@@ -11,7 +11,7 @@ parts:
       - file: introduction/training.md
       - file: introduction/inference.md
     - file: kernel/overview.md
-      caption: Kernel Optimization
+      title: Kernel Optimization
       sections:
       - file: kernel/gpu.md
       - file: kernel/cuda.md
