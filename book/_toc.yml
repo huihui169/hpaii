@@ -4,9 +4,12 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
+    - file: introduction/overview.md
       sections:
-      - file: some_content/text_and_code.ipynb
+      - file: introduction/transformer.md
+      - file: introduction/moe.md
+      - file: introdcution/training.md
+      - file: introduction/inference.md
     - file: exercises.md
       sections:
       - file: exercises/001.md
