@@ -2,9 +2,9 @@ title: High Performance AI Infra
 author: Hui Hui
 
 execute:
-  execute_notebooks: "off"                           # Replace this if you want don't have notebooks with output and you want to add notebook output during build
+  execute_notebooks: "off"  # Replace this if you want don't have notebooks with output and you want to add notebook output during build
 
-only_build_toc_files: true                           # Replace this with false if you want to build all files in the book, allowing you to refer to pages which are not included in the table of contents
+only_build_toc_files: true  # Replace this with false if you want to build all files in the book, allowing you to refer to pages which are not included in the table of contents
 
 
 html:
